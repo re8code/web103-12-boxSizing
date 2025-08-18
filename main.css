@@ -1,19 +1,16 @@
-div { float: left; }
-.a
-{ width: 200px; height: 200px;
-  background-color: pink; }
-.b
-{ width: 180px; height: 180px; padding: 10px;
-  background-color: orange; }
-.c
-{ width: 160px; height: 160px;
+* { box-sizing: border-box; }
+div { width: 200px; height: 200px; float: left; }
+.a  { background-color: pink; }
+.b  { background-color: orange; padding: 10px; }
+.c  {
   background-color: skyblue;
-  padding: 10px; border: 10px solid deepskyblue; }
-.d
-{ width: 200px; height: 200px;
+  padding: 10px; border: 10px solid deepskyblue;
+}
+.d  {
   background-color: coral;
   padding: 10px; border: 10px solid darkred;
-  box-sizing: border-box;}
+  margin: 10px;
+}
 
 
 
