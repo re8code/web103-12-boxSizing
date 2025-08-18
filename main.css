@@ -1,15 +1,22 @@
-* { box-sizing: border-box; }
-div { width: 200px; height: 200px; float: left; }
-.a  { background-color: pink; }
-.b  { background-color: orange; padding: 10px; }
-.c  {
-  background-color: skyblue;
-  padding: 10px; border: 10px solid deepskyblue;
+*, *::before, *::after { box-sizing: border-box; }
+.a {
+  width: 350px; height: 125px;
+  background-color: pink;
 }
-.d  {
-  background-color: coral;
-  padding: 10px; border: 10px solid darkred;
-  margin: 10px;
+.a::before {
+  content: 'before';
+  display: inline-block;
+  width: 125px; height: 125px;
+  background-color: orange;
+  padding: 10px;
+  border: 10px solid #000;
+}
+.a::after {
+  content: 'after';
+  display: inline-block;
+  width: 125px; height: 125px;
+  background-color: skyblue;
+  padding: 20px;
 }
 
 
