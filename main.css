@@ -1,6 +1,6 @@
-*, *::before, *::after { box-sizing: border-box; }
+* { box-sizing: border-box; }
 .a {
-  width: 350px; height: 125px;
+  width: 400px; height: 125px;
   background-color: pink;
 }
 .a::before {
