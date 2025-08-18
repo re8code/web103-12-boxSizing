@@ -1,5 +1,19 @@
-
-
+div {
+  width: 100px; height: 100px;
+  display: inline-block;
+}
+.a
+{ background-color: pink; }
+.b
+{ background-color: orange;
+  padding: 10px; }
+.c
+{ background-color: skyblue;
+  padding: 10px; border: 10px solid deepskyblue; }
+.d
+{ background-color: coral;
+  padding: 10px; border: 10px solid darkred;
+  box-sizing: border-box;}
 
 
 
