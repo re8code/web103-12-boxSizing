@@ -1,17 +1,17 @@
-div {
-  width: 100px; height: 100px;
-  display: inline-block;
-}
+div { float: left; }
 .a
-{ background-color: pink; }
+{ width: 200px; height: 200px;
+  background-color: pink; }
 .b
-{ background-color: orange;
-  padding: 10px; }
+{ width: 180px; height: 180px; padding: 10px;
+  background-color: orange; }
 .c
-{ background-color: skyblue;
+{ width: 160px; height: 160px;
+  background-color: skyblue;
   padding: 10px; border: 10px solid deepskyblue; }
 .d
-{ background-color: coral;
+{ width: 200px; height: 200px;
+  background-color: coral;
   padding: 10px; border: 10px solid darkred;
   box-sizing: border-box;}
 
